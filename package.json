@@ -1,0 +1,26 @@
+{
+  "name": "shiba-service-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit":"node ./build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JKY/shiba-service-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JKY/shiba-service-template/issues"
+  },
+  "homepage": "https://github.com/JKY/shiba-service-template#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.1",
+    "request": "^2.83.0"
+  }
+}
